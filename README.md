@@ -7,8 +7,16 @@ installable source. The rvnd-governance plugin lives in the rvnd
 repository at plugin/rvnd-governance beside the server surface it
 versions with.
 
-Add this marketplace in Claude Code, then install plugins from it.
-Access follows each source repository's visibility.
+The canonical Claude marketplace now lives in RVND itself, beside the plugin:
+
+```text
+/plugin marketplace add flxk1/RVND
+/plugin install rvnd-governance@rvnd
+```
+
+This catalog remains a compatibility entry point. It resolves the same
+repository-root plugin manifest and never carries a second copy of the skills.
+Access follows the RVND source repository's visibility.
 
 ## License
 
