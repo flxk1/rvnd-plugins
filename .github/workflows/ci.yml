@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: flxk1/RVND
-          ref: afd02b2c711afbde83a6c7eafe319d344c92cf07
+          ref: 8119418dd10eafcd6530774e488759626e6367f8
           path: rvnd-source
       - name: supply-chain gate teeth
         run: python3 tools/supply_chain_gate.py --self-test
